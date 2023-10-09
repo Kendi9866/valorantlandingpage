@@ -208,6 +208,68 @@ header .logo img {
   flex: 1;
 }
 
+.form form, .form fieldset{
+  display: flex;
+  flex-direction: column;
+}
+
+.form fieldset{
+  width: 500px;
+  border: 0px;
+
+}
+
+.form form button{
+  width: 500px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #ff4655;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  border: 0px;
+  margin-top: 20px;
+}
+
+.form form button:hover{
+  background-color: #912b33;
+  border-radius: 6px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 50px 0;
+  background-color: #ECE8E1;
+}
+
+.form fieldset legend{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: var(--font-bold);
+}
+
+.form fieldset label{
+  margin: 20px 0 3px 0;
+  text-transform: uppercase;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: 0;
+}
+
+input:nth-last-child(1){
+  height: 200px;
+}
+
 .text-play {
   display: flex;
   flex-direction: column;
