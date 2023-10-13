@@ -1,5 +1,3 @@
-[08:34] MATHEUS SAMPAIO SOIER
-
 # Valorant Landing Page 🎮
 
  
