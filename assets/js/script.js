@@ -21,7 +21,7 @@ function verificacao(event) {
 
 function atualizarDados() {
     const mensagem = `Nome: ${valorNome}\nEmail: ${valorEmail}\nDúvida: ${valorDuvida}`;
-    const confirmacao = `confirm(Os dados estão corretos?\n\n${mensagem})`;
+    const confirmacao = confirm(`Os dados estão corretos?\n\n${mensagem}`);
 
     if (confirmacao) {
         alert("Dados enviados com sucesso!");
