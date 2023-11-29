@@ -51,7 +51,7 @@ O projeto Valorant Landing Page utilizará as seguintes tecnologias:
  
 
 - HTML5 e CSS3 para estruturar e estilizar a página de forma atraente e responsiva 🌐.
-
+- JS foi utilizado para fazer confirmação do envio do formulario, assim como travar o envio caso não tenha nenhuma informação no formulário.
  
 
 ---
